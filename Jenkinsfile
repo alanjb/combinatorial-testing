@@ -18,6 +18,7 @@ pipeline { //declarative pipeline syntax
         stage("test"){
 
             steps {
+
                 echo 'TESTING APP...'
             }
         }
@@ -25,6 +26,7 @@ pipeline { //declarative pipeline syntax
         stage("deploy"){
 
             steps {
+
                 echo 'DEPLOYING APP...'
             }
         }
